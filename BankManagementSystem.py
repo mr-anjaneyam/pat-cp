@@ -23,10 +23,8 @@ class BankAccount:
         print(f"Account Holder : {self.account_holder}")
         print(f"Balance: ₹{self.balance}")
 
-#Creating an instance of the BankAccount
 account=BankAccount("XXXXXXXX","SRI")
 
-#deposit money
 account.deposit(10000)
 
 account.withdraw(4000)
