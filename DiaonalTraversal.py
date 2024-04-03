@@ -1,5 +1,5 @@
 from collections import deque
-def diagonalTravesal(root):
+def diagonalTraversal(root):
     if not root:
         return []
     result = []
@@ -27,3 +27,5 @@ if __name__=='__main__':
     root.right.left=TreeNode(6)
     root.right.right=TreeNode(7)
 
+diagonal_order = diagonalTraversal(root)
+print("diagonal traversal is", diagonal_order)
